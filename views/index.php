@@ -99,21 +99,21 @@
                             <img class="img-fluid" src="/assets/imgs/services-1.png" alt="">
                         </div>
                         <p>Instalación</p>
-                        <p>Nos dedicamos a brindar un servicio integral que incluye la instalación de una amplia gama de equipos de refrigeración. Ya sea un aire acondicionado, una heladera o una cámara frigorífica, nuestro equipo de expertos está capacitado para llevar a cabo instalaciones precisas y eficientes, asegurando un óptimo funcionamiento y la satisfacción total en cada proyecto.</p>
+                        <p>Brindamos un servicio que incluye la instalación de una amplia gama de equipos de refrigeración.</p>
                     </li>
                     <li>
                         <div>
                             <img class="img-fluid" src="/assets/imgs/services-2.png" alt="">
                         </div>
                         <p>Mantenimiento</p>
-                        <p>Nuestro compromiso va más allá de la instalación. Ofrecemos un servicio completo de mantenimiento para todo tipo de equipos de refrigeración. Realizamos limpieza, lubricación y el recambio de piezas cuando sea necesario para prolongar la vida útil de los equipos y garantizar su óptimo rendimiento. Tu tranquilidad y la eficiencia son nuestra prioridad.</p>
+                        <p>Disponemos de un servicio completo de mantenimiento y cuidado para todo tipo de equipos.</p>
                     </li>
                     <li>
                         <div>
                             <img class="img-fluid" src="/assets/imgs/services-3.png" alt="">
                         </div>
                         <p>Reparación y/o modificación</p>
-                        <p>Enfrentamos cualquier desafío y nos esforzamos por brindar soluciones rápidas y confiables para mantener tu equipo en excelentes condiciones. Nuestro enfoque incluye un diagnóstico preciso de los problemas, seguido de reparaciones efectivas y los ajustes necesarios. Así, garantizamos que tu equipo vuelva a funcionar de manera óptima, permitiendo así prolongar la vida útil del mismo.</p>
+                        <p>Enfrentamos desafíos y brindamos soluciones para mantener tu equipo en excelentes condiciones.</p>
                     </li>
                 </ul>
                 <hr>
@@ -161,7 +161,7 @@
 
         <div class="row" id="marcas">
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 text-center">
-                <h2>Algunas de las marcas con las que trabajamos</h2>
+                <h2>Algunas con las que trabajamos</h2>
                 <ul>
                     <li class="samsung"><img class="img-fluid" src="/assets/imgs/marca-samsung.png" alt="Icono Samsung"></li>
                     <li class="lg"><img class="img-fluid" src="/assets/imgs/marca-lg.png" alt="Icono LG"></li>

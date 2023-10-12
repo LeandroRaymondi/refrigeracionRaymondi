@@ -178,6 +178,7 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+    align-items: flex-start;
     margin-bottom: 80px;
 }
 
@@ -196,11 +197,14 @@ a {
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 20px;
+    margin-top: 20px;
+    white-space: nowrap;
 }
 
 #servicios li>*:nth-child(3) {
     color: rgb(119, 119, 119);
     font-size: 15px;
+    margin-bottom: 20px;
 }
 
 /* Detail */
@@ -219,7 +223,7 @@ a {
 }
 
 #detalle p:nth-child(2) {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     line-height: 55px;
 }
