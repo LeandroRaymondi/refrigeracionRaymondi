@@ -293,6 +293,7 @@ a {
     color: white;
     font-size: 50px;
     font-weight: 600;
+    margin-bottom: 30px;
 }
 
 #marcas ul {
@@ -328,6 +329,11 @@ a {
     border-bottom: 80px solid #0077db;
 }
 
+#contacto div:nth-child(2){
+    display: flex;
+    gap: 30px;
+}
+
 #contacto h3{
     color: rgb(35, 49, 65);
     font-size: 28px;
@@ -337,7 +343,8 @@ a {
 }
 
 #contacto iframe {
-    width: 100%;
+    width: 50%;
+    border-radius: 5px;
 }
 
 /* Footer */
@@ -397,6 +404,18 @@ a {
     }
 
     #servicios li {
+        width: 100%;
+    }
+
+    #servicios li>*:nth-child(3) {
+        font-size: 20px;
+    }
+
+    #contacto div:nth-child(2){
+        flex-direction: column;
+    }
+    
+    #contacto iframe {
         width: 100%;
     }
 

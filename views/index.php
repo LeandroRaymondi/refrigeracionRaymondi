@@ -40,11 +40,11 @@
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.instagram.com/refrigeracionraymondi/">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a target="_blank" href="#">
                             <i class="fa-brands fa-youtube"></i>
                         </a>
@@ -53,7 +53,7 @@
                         <a target="_blank" href="#">
                             <i class="fa-brands fa-linkedin"></i>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </nav>
@@ -161,7 +161,7 @@
 
         <div class="row" id="marcas">
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 text-center">
-                <h2>Algunas con las que trabajamos</h2>
+                <h2>Algunas de las marcas con las que trabajamos</h2>
                 <ul>
                     <li class="samsung"><img class="img-fluid" src="/assets/imgs/marca-samsung.png" alt="Icono Samsung"></li>
                     <li class="lg"><img class="img-fluid" src="/assets/imgs/marca-lg.png" alt="Icono LG"></li>
@@ -176,8 +176,11 @@
 
         <div class="row" id="contacto">
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 text-center">
-                <h3>Estamos Ubicados Por La Zona De Del Viso / Buenos Aires</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52638.52996315231!2d-58.83425739359915!3d-34.45448008048457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc993fb6f5b121%3A0x3946b374735be9b3!2sDel%20Viso%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1694795624175!5m2!1ses!2sar" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h3>Estamos ubicados dentro del partido de Pilar y Escobar, Buenos Aires.</h3>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d148883.82016668303!2d-58.95276963865058!3d-34.4547189006107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9ce000021e8d%3A0xb7476c86aa6dd3e0!2sPilar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1698085934630!5m2!1ses-419!2sar" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74496.44552738791!2d-58.79924921736459!3d-34.39349463593327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb605281ec82cb%3A0x8af346ceab3af9e8!2sEscobar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1698086112541!5m2!1ses-419!2sar" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </div>
 

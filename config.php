@@ -20,19 +20,16 @@ $bd['pass'] = 'SwiderAdminPass+'; */
 
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 
-$dbh = new PDO("mysql:host=" . $bd['host'] . ";dbname=" . $bd['name'], $bd['user'], $bd['pass']);
+// $dbh = new PDO("mysql:host=" . $bd['host'] . ";dbname=" . $bd['name'], $bd['user'], $bd['pass']);
 
 
 spl_autoload_register(function ($class) {
     // Convert namespace separators to directory separators
     $classPath = str_replace('\\', DIRECTORY_SEPARATOR, $class);
-
     // Specify the base directory for your classes
     $baseDir = __DIR__ . '/model/';
-
     // Build the full path to the class file
     $filePath = $baseDir . $classPath . '.php';
-
     // Load the class file if it exists
     if (file_exists($filePath)) {
         require $filePath;
