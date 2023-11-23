@@ -8,8 +8,21 @@
     <link rel="icon" type="image/jpg" href="/assets/imgs/favicon.ico" />
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/general.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5FDH2B841G"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-5FDH2B841G');
+    </script>
 </head>
 
 <body>
@@ -19,23 +32,19 @@
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12">
                 <ul>
                     <li>Servicios de refrigeración</li>
-                    <li>
-                        <a target="_blank" href="#">
-                            <i class="fa-solid fa-phone"></i>+5491140586727
-                        </a>
+                    <li class="copy-clipboard">
+                        <i class="fa-solid fa-phone"></i><?php echo $phone ?>
+                    </li>
+                    <li class="copy-clipboard">
+                        <i class="fa-solid fa-envelope"></i>raymondirefrigeracion@gmail.com
                     </li>
                     <li>
-                        <a target="_blank" href="#">
-                            <i class="fa-solid fa-envelope"></i>test@gmail.com
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=+5491140586727&text=Buenas Refrigeración Raymondi! Estuve navegando por su página web y quería hacer una consulta.">
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=<?php echo $phone ?>&text=<?php echo $web_presentation ?>">
                             <i class="fa-brands fa-whatsapp"></i>
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.facebook.com/refrigeracionraymondi1/">
                             <i class="fa-brands fa-facebook"></i>
                         </a>
                     </li>
@@ -44,21 +53,16 @@
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                     </li>
-                    <!-- <li>
-                        <a target="_blank" href="#">
-                            <i class="fa-brands fa-youtube"></i>
+                    <li>
+                        <a target="_blank" href="https://www.tiktok.com/@refrigeracionraymondi">
+                            <i class="fa-brands fa-tiktok"></i>
                         </a>
                     </li>
-                    <li>
-                        <a target="_blank" href="#">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </li> -->
                 </ul>
             </div>
         </nav>
 
-        <nav class="row" id="header-nav">
+        <nav class="row" id="menu">
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12">
                 <ul>
                     <li class="logo">
@@ -67,15 +71,15 @@
                             <span>Raymondi</span>
                         </a>
                     </li>
-                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Inicio</a></li>
                     <li><a href="#servicios">Servicios</a></li>
-                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#video">Videos</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </div>
         </nav>
 
-        <div class="row" id="home">
+        <div class="row" id="inicio">
             <div class="col-8 offset-2">
                 <img src="/assets/imgs/bg-2.png" alt="">
                 <div class="home-text">
@@ -91,7 +95,7 @@
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12">
                 <div class="services-titles">
                     <p>Servicio de soluciones integrales en equipos de refrigeración</p>
-                    <p>Brindamos asesoramiento de acuerdo a las necesidades de cada cliente.</p>
+                    <p>Asesoramiento de acuerdo a las necesidades de cada cliente.</p>
                 </div>
                 <ul>
                     <li>
@@ -130,29 +134,33 @@
         <div class="row" id="videos">
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12">
 
-                <div class="row video">
+                <div class="row video" id="video">
                     <div class="col-md-6 col-12">
-                        <img class="img-fluid" src="/assets/imgs/video1.jpg" alt="">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@refrigeracionraymondi/video/7299099743601413381" data-video-id="7299099743601413381" style="max-width: 605px;min-width: 325px;">
+                            <section> <a target="_blank" title="@refrigeracionraymondi" href="https://www.tiktok.com/@refrigeracionraymondi?refer=embed">@refrigeracionraymondi</a> El mejor de los mejores mostrándonos este hermoso trabajo 😎 <a title="refrigeracion" target="_blank" href="https://www.tiktok.com/tag/refrigeracion?refer=embed">#refrigeracion</a> <a title="refrigerator" target="_blank" href="https://www.tiktok.com/tag/refrigerator?refer=embed">#refrigerator</a> <a title="tecnico" target="_blank" href="https://www.tiktok.com/tag/tecnico?refer=embed">#tecnico</a> <a title="tecnicorefrigeracion" target="_blank" href="https://www.tiktok.com/tag/tecnicorefrigeracion?refer=embed">#tecnicorefrigeracion</a> <a title="fy" target="_blank" href="https://www.tiktok.com/tag/fy?refer=embed">#fy</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="fypシ" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed">#fypシ</a> <a target="_blank" title="♬ sonido original - Refrigeración Raymondi" href="https://www.tiktok.com/music/sonido-original-7299099762593614597?refer=embed">♬ sonido original - Refrigeración Raymondi</a> </section>
+                        </blockquote>
+                        <script async src="https://www.tiktok.com/embed.js"></script>
                     </div>
                     <div class="col-md-6 col-12 descripcion">
-                        <p>Connect all your devices and access
-                            high speed Internet with ease</p>
-                        <p>Praesent tincidunt porttitor libero, id sodales enim tincidunt id Nam efficitur ultrices sapien, ut sagittis mauris venenatis.</p>
-                        <p>Praesent tincidunt porttitor libero, id sodales enim tincidunt id Nam efficitur ultrices sapien, ut sagittis mauris venenatis.</p>
-                        <button>Getting start now</button>
+                        <p>¡Estamos en TikTok!</p>
+                        <p>¡Seguinos para ver nuestros trabajos!</p>
+                        <p>Este video muestra de forma sencilla como procedemos con la instalación de un equipo. En este caso es un hermoso Samsung inverter al cual se lo documentó mostrando como fue el fin del proceso tanto de la unidad interior como exterior.</p>
+                        <button><a href="https://www.tiktok.com/@refrigeracionraymondi" target="_blank">Ver perfil</a></button>
                     </div>
                 </div>
 
                 <div class="row video">
                     <div class="col-md-6 col-12">
-                        <img class="img-fluid" src="/assets/imgs/video 2.jpg" alt="">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@refrigeracionraymondi/video/7299101450901130502" data-video-id="7299101450901130502" style="max-width: 605px;min-width: 325px;">
+                            <section> <a target="_blank" title="@refrigeracionraymondi" href="https://www.tiktok.com/@refrigeracionraymondi?refer=embed">@refrigeracionraymondi</a> Hallazgo de pérdida y solución 🥳 <a title="refrigeracion" target="_blank" href="https://www.tiktok.com/tag/refrigeracion?refer=embed">#refrigeracion</a> <a title="refrigerator" target="_blank" href="https://www.tiktok.com/tag/refrigerator?refer=embed">#refrigerator</a> <a title="tecnico" target="_blank" href="https://www.tiktok.com/tag/tecnico?refer=embed">#tecnico</a> <a title="tecnicorefrigeracion" target="_blank" href="https://www.tiktok.com/tag/tecnicorefrigeracion?refer=embed">#tecnicorefrigeracion</a> <a title="fy" target="_blank" href="https://www.tiktok.com/tag/fy?refer=embed">#fy</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="fypシ" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed">#fypシ</a> <a target="_blank" title="♬ sonido original - Refrigeración Raymondi" href="https://www.tiktok.com/music/sonido-original-7299101473133251333?refer=embed">♬ sonido original - Refrigeración Raymondi</a> </section>
+                        </blockquote>
+                        <script async src="https://www.tiktok.com/embed.js"></script>
                     </div>
                     <div class="col-md-6 col-12 descripcion">
-                        <p>Connect all your devices and access
-                            high speed Internet with ease</p>
-                        <p>Praesent tincidunt porttitor libero, id sodales enim tincidunt id Nam efficitur ultrices sapien, ut sagittis mauris venenatis.</p>
-                        <p>Praesent tincidunt porttitor libero, id sodales enim tincidunt id Nam efficitur ultrices sapien, ut sagittis mauris venenatis.</p>
-                        <button>Getting start now</button>
+                        <p>¡Todo tipo de trabajos!</p>
+                        <p>Instalaciones, nofrost a analógicos y mucho más.</p>
+                        <p>En este video podemos ver como luego de hayar una pérdida se realizan todos los pasos siguientes para poder repararla y luego volver a cargar el gas.</p>
+                        <button><a href="https://www.tiktok.com/@refrigeracionraymondi/video/7299101450901130502" target="_blank">Ver en TikTok</a></button>
                     </div>
                 </div>
 
@@ -176,11 +184,19 @@
 
         <div class="row" id="contacto">
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 text-center">
-                <h3>Estamos ubicados dentro del partido de Pilar y Escobar, Buenos Aires.</h3>
+                <h3>Estamos ubicados dentro del partido de Pilar.</h3>
+                <p>Contamos con cobertura en partidos aledaños. Consultar por otros partidos.</p>
                 <div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d148883.82016668303!2d-58.95276963865058!3d-34.4547189006107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9ce000021e8d%3A0xb7476c86aa6dd3e0!2sPilar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1698085934630!5m2!1ses-419!2sar" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74496.44552738791!2d-58.79924921736459!3d-34.39349463593327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb605281ec82cb%3A0x8af346ceab3af9e8!2sEscobar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1698086112541!5m2!1ses-419!2sar" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row" id="detalle2">
+            <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12">
+                <p>Tu consulta no es molestia.</p>
+                <p>¡Comunicate con nosotros mediante nuestro Whatsapp!</p>
             </div>
         </div>
 
@@ -188,7 +204,7 @@
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12">
                 <ul class="footer">
                     <li class="logo">
-                        <a href="#">
+                        <a href="#header-nav">
                             <span>Refrigeración</span>
                             <span>Raymondi</span>
                         </a>
@@ -196,30 +212,32 @@
                     <li>
                         <div>Contacto</div>
                         <ul>
-                            <li>
-                                <a target="_blank" href="#"><i class="fa-solid fa-envelope"></i>refrigeracionraymondi@gmail.com</a>
+                            <li class="copy-clipboard">
+                                <i class="fa-solid fa-envelope"></i>raymondirefrigeracion@gmail.com
+                            </li>
+                            <li class="copy-clipboard">
+                                <i class="fa-solid fa-phone"></i><?php echo $phone ?>
                             </li>
                             <li>
-                                <a target="_blank" href="#">
-                                    <i class="fa-solid fa-phone"></i>+5491140586727
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://api.whatsapp.com/send?phone=+5491140586727&text=Buenas Refrigeración Raymondi! Estuve navegando por su página web y quería hacer una consulta."><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
+                                <a target="_blank" href="https://api.whatsapp.com/send?phone=+5491140586727&text=Buenas Refrigeración Raymondi!"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
                             </li>
                             <li>
                                 <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
                             </li>
                             <li>
-                                <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                                <a target="_blank" href="https://www.tiktok.com/@refrigeracionraymondi"><i class="fa-brands fa-tiktok"></i>TikTok</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <div>Links importantes</div>
                         <ul>
-                            <li><a target="_blank" href="https://api.whatsapp.com/send?phone=+5491140586727&text=Buenas Refrigeración Raymondi! Estuve navegando por su página web y quería hacer una consulta.">Whatsapp</a></li>
-                            <li><a target="_blank" href="https://api.whatsapp.com/send?phone=+5491140586727&text=Buenas Refrigeración Raymondi, tengo un inconveniente: ...">Support</a></li>
+                            <li><a target="_blank" href="https://api.whatsapp.com/send?phone=<?php echo $phone ?>&text=<?php echo $web_presentation ?>">Whatsapp</a></li>
+                            <li><a target="_blank" href="https://www.tiktok.com/@refrigeracionraymondi">TikTok</a></li>
+                            <li><a target="_blank" href="https://wa.me/+5491140586727">Support</a></li>
                             <li><a target="_blank" href="https://maps.app.goo.gl/R5nTNAaSqZN7K2pFA">¿En qué zona estamos?</a></li>
                         </ul>
                     </li>
@@ -227,8 +245,15 @@
             </div>
         </footer>
 
+        <div id="whatsapp-fixed">
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=<?php echo $phone ?>&text=<?php echo $web_presentation ?>">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+
     </main>
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="https://kit.fontawesome.com/54a40cf424.js" crossorigin="anonymous"></script>
     <script src="/assets/js/jquery-3.5.1.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>

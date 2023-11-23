@@ -7,6 +7,9 @@ if(!isset($_SESSION)){
 	session_start();
 }
 
+$phone = "+5491140586727";
+$web_presentation = "Muy buenas Refrigeración Raymondi!";
+
 /* Base */
 $bd['host'] = 'localhost';
 $bd['name'] = 'onepiece';
@@ -18,7 +21,10 @@ $bd['name'] = 'onepiece';
 $bd['user'] = 'admin';
 $bd['pass'] = 'SwiderAdminPass+'; */
 
-define('ROOT', $_SERVER['DOCUMENT_ROOT']);
+if (!defined('ROOT')) {
+    define('ROOT', $_SERVER['DOCUMENT_ROOT']);
+}
+
 
 // $dbh = new PDO("mysql:host=" . $bd['host'] . ";dbname=" . $bd['name'], $bd['user'], $bd['pass']);
 
