@@ -10,7 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/general.css">
+    <link rel="stylesheet" href="/assets/css/general.css?v3">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5FDH2B841G"></script>
     <script>
@@ -80,7 +80,7 @@
         </nav>
 
         <div class="row" id="inicio">
-            <div class="col-8 offset-2">
+            <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12">
                 <img src="/assets/imgs/bg-2.png" alt="">
                 <div class="home-text">
                     <p>INSTALACIÓN

@@ -145,7 +145,7 @@ a {
     top: 300px;
     left: 50%;
     transform: translate(-50%, 0);
-    box-shadow: 0px 8px 15px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 15px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
@@ -161,19 +161,20 @@ a {
 }
 
 /* Services */
-#servicios .services-titles{
+#servicios .services-titles {
     text-align: center;
     margin: 80px 0 80px;
 }
 
-#servicios .services-titles>*:nth-child(1){
+#servicios .services-titles>*:nth-child(1) {
     font-family: "Poppins";
     font-size: 32px;
     font-weight: 800;
     line-height: 48px;
 }
 
-#servicios .services-titles>*:nth-child(2), #servicios .services-titles>*:nth-child(3){
+#servicios .services-titles>*:nth-child(2),
+#servicios .services-titles>*:nth-child(3) {
     color: rgb(119, 119, 119);
     font-size: 20px;
     font-weight: 400;
@@ -285,7 +286,8 @@ a {
     font-size: 15px;
 }
 
-.video button, .video a {
+.video button,
+.video a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     padding: 11px 16px;
@@ -330,7 +332,8 @@ a {
     line-height: 120px;
 }
 
-#marcas li.surrey img, #marcas li.philco img {
+#marcas li.surrey img,
+#marcas li.philco img {
     filter: invert(100%);
 }
 
@@ -347,13 +350,13 @@ a {
     margin: 40px 0 0 0;
 }
 
-#contacto div:nth-child(2){
+#contacto div:nth-child(2) {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-#contacto h3{
+#contacto h3 {
     color: rgb(35, 49, 65);
     font-size: 28px;
     line-height: 28px;
@@ -463,6 +466,7 @@ a {
     #servicios ul {
         flex-direction: column;
         align-content: center;
+        gap: 80px;
     }
 
     #servicios li {
@@ -481,10 +485,10 @@ a {
         align-items: center;
     }
 
-    #contacto div:nth-child(2){
+    #contacto div:nth-child(2) {
         flex-direction: column;
     }
-    
+
     #contacto iframe {
         width: 100%;
     }
@@ -498,19 +502,43 @@ a {
 @media (max-width: 576px) {
     #menu ul {
         gap: 20px;
+        font-size: 14px;
+    }
+
+    /* Inicio */
+
+    #inicio {
+        height: 480px;
     }
 
     #inicio img {
-        position: absolute;
-        top: 0;
-        left: calc(50% - 760px);
-        width: 1520px;
+        left: calc(50% - 677px);
+        width: 1350px;
+    }
+
+    #inicio .home-text>*:nth-child(1) {
+        font-size: 35px;
+        line-height: 35px;
+        font-weight: 700;
+    }
+
+    #inicio .home-text>*:nth-child(2) {
+        font-size: 15px;
+        line-height: 15px;
     }
 
     #servicios .services-titles>*:nth-child(1) {
         font-size: 30px;
         line-height: 30px;
         margin-bottom: 15px;
+    }
+
+    #servicios li>div {
+        width: 180px;
+    }
+    
+    #marcas h2 {
+        font-size: 40px;
     }
 
     #detail p:nth-child(2) {
