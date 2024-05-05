@@ -1,5 +1,11 @@
 const index = {
     init: function () {
+
+        setTimeout(function() {
+            $('#video iframe').attr('title', 'Video tiktok');
+          }, 5000);
+          
+
         this.copyToClipboard();
     },
     toastify: function (message, background) {

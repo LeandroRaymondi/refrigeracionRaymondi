@@ -89,7 +89,7 @@ require_once('config.php');
 
         <div class="row" id="inicio">
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12">
-                <img src="./assets/imgs/bg-2.png" alt="">
+                <img src="./assets/imgs/bg-2.webp" alt="">
                 <div class="home-text">
                     <p>INSTALACIÓN
                         MANTENIMIENTO
@@ -108,21 +108,21 @@ require_once('config.php');
                 <ul>
                     <li>
                         <div>
-                            <img class="img-fluid" src="./assets/imgs/services-1.png" alt="">
+                            <img class="img-fluid" src="./assets/imgs/services-1.webp" alt="">
                         </div>
                         <p>Instalación</p>
                         <p>Brindamos un servicio que incluye la instalación de una amplia gama de equipos de refrigeración.</p>
                     </li>
                     <li>
                         <div>
-                            <img class="img-fluid" src="./assets/imgs/services-2.png" alt="">
+                            <img class="img-fluid" src="./assets/imgs/services-2.webp" alt="">
                         </div>
                         <p>Mantenimiento</p>
                         <p>Disponemos de un servicio completo de mantenimiento y cuidado para todo tipo de equipos.</p>
                     </li>
                     <li>
                         <div>
-                            <img class="img-fluid" src="./assets/imgs/services-3.png" alt="">
+                            <img class="img-fluid" src="./assets/imgs/services-3.webp" alt="">
                         </div>
                         <p>Reparación y/o modificación</p>
                         <p>Enfrentamos desafíos y brindamos soluciones para mantener tu equipo en excelentes condiciones.</p>
@@ -144,7 +144,7 @@ require_once('config.php');
 
                 <div class="row video" id="video">
                     <div class="col-md-6 col-12">
-                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@refrigeracionraymondi/video/7299099743601413381" data-video-id="7299099743601413381" style="max-width: 605px;min-width: 325px;">
+                        <blockquote class="tiktok-embed" title="Tiktok video" cite="https://www.tiktok.com/@refrigeracionraymondi/video/7299099743601413381" data-video-id="7299099743601413381" style="max-width: 605px;min-width: 325px;">
                             <section title="Primer tiktok"> <a target="_blank" title="@refrigeracionraymondi" href="https://www.tiktok.com/@refrigeracionraymondi?refer=embed">@refrigeracionraymondi</a> El mejor de los mejores mostrándonos este hermoso trabajo 😎 <a title="refrigeracion" target="_blank" href="https://www.tiktok.com/tag/refrigeracion?refer=embed">#refrigeracion</a> <a title="refrigerator" target="_blank" href="https://www.tiktok.com/tag/refrigerator?refer=embed">#refrigerator</a> <a title="tecnico" target="_blank" href="https://www.tiktok.com/tag/tecnico?refer=embed">#tecnico</a> <a title="tecnicorefrigeracion" target="_blank" href="https://www.tiktok.com/tag/tecnicorefrigeracion?refer=embed">#tecnicorefrigeracion</a> <a title="fy" target="_blank" href="https://www.tiktok.com/tag/fy?refer=embed">#fy</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="fypシ" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed">#fypシ</a> <a target="_blank" title="♬ sonido original - Refrigeración Raymondi" href="https://www.tiktok.com/music/sonido-original-7299099762593614597?refer=embed">♬ sonido original - Refrigeración Raymondi</a> </section>
                         </blockquote>
                         <script async src="https://www.tiktok.com/embed.js"></script>
@@ -159,7 +159,7 @@ require_once('config.php');
 
                 <div class="row video">
                     <div class="col-md-6 col-12">
-                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@refrigeracionraymondi/video/7299101450901130502" data-video-id="7299101450901130502" style="max-width: 605px;min-width: 325px;">
+                        <blockquote class="tiktok-embed" title="Tiktok video" cite="https://www.tiktok.com/@refrigeracionraymondi/video/7299101450901130502" data-video-id="7299101450901130502" style="max-width: 605px;min-width: 325px;">
                             <section title="Segundo tiktok"> <a target="_blank" title="@refrigeracionraymondi" href="https://www.tiktok.com/@refrigeracionraymondi?refer=embed">@refrigeracionraymondi</a> Hallazgo de pérdida y solución 🥳 <a title="refrigeracion" target="_blank" href="https://www.tiktok.com/tag/refrigeracion?refer=embed">#refrigeracion</a> <a title="refrigerator" target="_blank" href="https://www.tiktok.com/tag/refrigerator?refer=embed">#refrigerator</a> <a title="tecnico" target="_blank" href="https://www.tiktok.com/tag/tecnico?refer=embed">#tecnico</a> <a title="tecnicorefrigeracion" target="_blank" href="https://www.tiktok.com/tag/tecnicorefrigeracion?refer=embed">#tecnicorefrigeracion</a> <a title="fy" target="_blank" href="https://www.tiktok.com/tag/fy?refer=embed">#fy</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="fypシ" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed">#fypシ</a> <a target="_blank" title="♬ sonido original - Refrigeración Raymondi" href="https://www.tiktok.com/music/sonido-original-7299101473133251333?refer=embed">♬ sonido original - Refrigeración Raymondi</a> </section>
                         </blockquote>
                         <script async src="https://www.tiktok.com/embed.js"></script>
@@ -179,13 +179,13 @@ require_once('config.php');
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 text-center">
                 <h2>Algunas de las marcas con las que trabajamos</h2>
                 <ul>
-                    <li class="samsung"><img class="img-fluid" src="./assets/imgs/marca-samsung.png" alt="Icono Samsung"></li>
-                    <li class="lg"><img class="img-fluid" src="./assets/imgs/marca-lg.png" alt="Icono LG"></li>
-                    <li class="bgh"><img class="img-fluid" src="./assets/imgs/marca-bgh.png" alt="Icono BGH"></li>
-                    <li class="surrey"><img class="img-fluid" src="./assets/imgs/marca-surrey.png" alt="Icono Surrey"></li>
-                    <li class="philco"><img class="img-fluid" src="./assets/imgs/marca-philco.png" alt="Icono Philco"></li>
-                    <li class="electrolux"><img class="img-fluid" src="./assets/imgs/marca-electrolux.png" alt="Icono Electrolux"></li>
-                    <li class="whirlpool"><img class="img-fluid" src="./assets/imgs/marca-whirlpool.png" alt="Icono Whirlpool"></li>
+                    <li class="samsung"><img class="img-fluid" src="./assets/imgs/marca-samsung.webp" alt="Icono Samsung"></li>
+                    <li class="lg"><img class="img-fluid" src="./assets/imgs/marca-lg.webp" alt="Icono LG"></li>
+                    <li class="bgh"><img class="img-fluid" src="./assets/imgs/marca-bgh.webp" alt="Icono BGH"></li>
+                    <li class="surrey"><img class="img-fluid" src="./assets/imgs/marca-surrey.webp" alt="Icono Surrey"></li>
+                    <li class="philco"><img class="img-fluid" src="./assets/imgs/marca-philco.webp" alt="Icono Philco"></li>
+                    <li class="electrolux"><img class="img-fluid" src="./assets/imgs/marca-electrolux.webp" alt="Icono Electrolux"></li>
+                    <li class="whirlpool"><img class="img-fluid" src="./assets/imgs/marca-whirlpool.webp" alt="Icono Whirlpool"></li>
                 </ul>
             </div>
         </div>
@@ -254,7 +254,7 @@ require_once('config.php');
         </footer>
 
         <div id="whatsapp-fixed">
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=<?php echo $phone ?>&text=<?php echo $web_presentation ?>">
+            <a title="whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=<?php echo $phone ?>&text=<?php echo $web_presentation ?>">
                 <i class="fa-brands fa-whatsapp"></i>
             </a>
         </div>
