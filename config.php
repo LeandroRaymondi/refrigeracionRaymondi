@@ -12,7 +12,7 @@ $web_presentation = "Muy buenas Refrigeración Raymondi!";
 
 /* Base */
 $bd['host'] = 'localhost';
-$bd['name'] = 'onepiece';
+$bd['name'] = 'refrigeracionraymondi';
 $bd['user'] = 'root';
 $bd['pass'] = '';
 

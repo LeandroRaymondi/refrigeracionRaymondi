@@ -1,7 +1,6 @@
 const index = {
     init: function () {
         this.copyToClipboard();
-        this.tostify();
     },
     toastify: function (message, background) {
         Toastify({
